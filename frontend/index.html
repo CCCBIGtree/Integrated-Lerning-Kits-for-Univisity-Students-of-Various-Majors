@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>大学生学习导航</title>
+  <meta name="description" content="按专业整理的大学生考试、考证、竞赛与学习网站导航">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a href="#/" class="brand">🎓 大学生学习导航</a>
+      <form class="search" id="search-form" role="search">
+        <input id="search-input" type="search" placeholder="搜索：四六级、蓝桥杯、LeetCode…" aria-label="搜索网站">
+      </form>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="breadcrumb" id="breadcrumb" aria-label="面包屑"></nav>
+    <section id="view" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap footer">
+    <span id="crawl-status">数据加载中…</span>
+    <span>链接均跳转至各网站官方页面，请以官网信息为准</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
