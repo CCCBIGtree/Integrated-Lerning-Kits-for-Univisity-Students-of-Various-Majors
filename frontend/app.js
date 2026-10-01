@@ -73,12 +73,15 @@ async function renderHome() {
   view.innerHTML = `
     <h1>选择你的学科门类</h1>
     <p class="lead">按门类 → 专业逐级查找考试、考证、竞赛与学习网站</p>
-    <div class="grid">${cats.map((c) => `
-      <a class="card" href="#/c/${esc(c.id)}">
-        <div class="icon">${esc(c.icon)}</div>
-        <h2>${esc(c.name)}</h2>
-        <p>${esc(c.description)}</p>
-        <div class="meta">${c.major_count} 个方向 · ${c.site_count} 个网站</div>
+    <div class="list">${cats.map((c, i) => `
+      <a class="card row" href="#/c/${esc(c.id)}">
+        <span class="num">${i + 1}.</span>
+        <span class="icon">${esc(c.icon)}</span>
+        <div class="row-body">
+          <h2>${esc(c.name)}</h2>
+          <p>${esc(c.description)}</p>
+        </div>
+        <span class="meta">${c.major_count} 个方向 · ${c.site_count} 个网站 →</span>
       </a>`).join("")}
     </div>`;
 }
@@ -89,11 +92,14 @@ async function renderCategory(cid) {
   view.innerHTML = `
     <h1>${esc(cat.icon)} ${esc(cat.name)}</h1>
     <p class="lead">${esc(cat.description)}</p>
-    <div class="grid">${cat.majors.map((m) => `
-      <a class="card" href="#/c/${esc(cat.id)}/m/${esc(m.id)}">
-        <h2>${esc(m.name)}</h2>
-        <p>${m.preview.map(esc).join("、")}${m.site_count > 3 ? " 等" : ""}</p>
-        <div class="meta">${m.site_count} 个网站 →</div>
+    <div class="list">${cat.majors.map((m, i) => `
+      <a class="card row" href="#/c/${esc(cat.id)}/m/${esc(m.id)}">
+        <span class="num">${i + 1}.</span>
+        <div class="row-body">
+          <h2>${esc(m.name)}</h2>
+          <p>${m.preview.map(esc).join("、")}${m.site_count > 3 ? " 等" : ""}</p>
+        </div>
+        <span class="meta">${m.site_count} 个网站 →</span>
       </a>`).join("")}
     </div>`;
 }
