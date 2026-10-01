@@ -87,7 +87,7 @@ a.card:hover { transform: translateY(-2px); border-color: var(--primary); }
 .row-body h2 { margin: 0 0 2px; }
 .row .meta { margin-top: 0; white-space: nowrap; }
 
-.site-list { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.site-list { display: flex; flex-direction: column; gap: 12px; }
 .site { display: flex; flex-direction: column; gap: 10px; }
 .site-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
 .site h3 { margin: 0; font-size: 17px; }
@@ -126,7 +126,6 @@ details.notices li { margin: 2px 0; }
 
 @media (max-width: 560px) {
   .brand { font-size: 16px; }
-  .site-list { grid-template-columns: 1fr; }
   .card { padding: 16px; }
   .row { flex-wrap: wrap; gap: 8px 12px; }
   .row .meta { flex-basis: 100%; }
