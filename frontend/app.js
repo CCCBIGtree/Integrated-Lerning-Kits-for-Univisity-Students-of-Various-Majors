@@ -73,9 +73,8 @@ async function renderHome() {
   view.innerHTML = `
     <h1>选择你的学科门类</h1>
     <p class="lead">按门类 → 专业逐级查找考试、考证、竞赛与学习网站</p>
-    <div class="list">${cats.map((c, i) => `
+    <div class="list">${cats.map((c) => `
       <a class="card row" href="#/c/${esc(c.id)}">
-        <span class="num">${i + 1}.</span>
         <span class="icon">${esc(c.icon)}</span>
         <div class="row-body">
           <h2>${esc(c.name)}</h2>
@@ -92,9 +91,8 @@ async function renderCategory(cid) {
   view.innerHTML = `
     <h1>${esc(cat.icon)} ${esc(cat.name)}</h1>
     <p class="lead">${esc(cat.description)}</p>
-    <div class="list">${cat.majors.map((m, i) => `
+    <div class="list">${cat.majors.map((m) => `
       <a class="card row" href="#/c/${esc(cat.id)}/m/${esc(m.id)}">
-        <span class="num">${i + 1}.</span>
         <div class="row-body">
           <h2>${esc(m.name)}</h2>
           <p>${m.preview.map(esc).join("、")}${m.site_count > 3 ? " 等" : ""}</p>

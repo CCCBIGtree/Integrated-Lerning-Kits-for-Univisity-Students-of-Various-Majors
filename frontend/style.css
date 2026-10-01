@@ -82,7 +82,6 @@ a.card:hover { transform: translateY(-2px); border-color: var(--primary); }
 /* 一、二级目录：每项占一整行，从上到下纵向排列 */
 .list { display: flex; flex-direction: column; gap: 12px; }
 .row { display: flex; align-items: center; gap: 16px; padding: 16px 20px; }
-.row .num { font-size: 18px; font-weight: 700; color: var(--primary); min-width: 2em; }
 .row .icon { font-size: 30px; }
 .row-body { flex: 1; min-width: 0; }
 .row-body h2 { margin: 0 0 2px; }
@@ -130,5 +129,5 @@ details.notices li { margin: 2px 0; }
   .site-list { grid-template-columns: 1fr; }
   .card { padding: 16px; }
   .row { flex-wrap: wrap; gap: 8px 12px; }
-  .row .meta { flex-basis: 100%; padding-left: calc(2em + 12px); }
+  .row .meta { flex-basis: 100%; }
 }
