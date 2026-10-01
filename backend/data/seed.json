@@ -1,0 +1,892 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "通用",
+      "icon": "🌐",
+      "description": "所有专业都适用的考试、证书与学习平台",
+      "majors": [
+        {
+          "id": "foreign-language",
+          "name": "外语考试",
+          "sites": [
+            {
+              "name": "全国大学英语四六级考试 (CET)",
+              "url": "https://cet.neea.edu.cn/",
+              "tags": [
+                "考试"
+              ],
+              "intro": "教育部考试中心主办，几乎所有本科生都要参加的英语等级考试，可查询报名、准考证打印与成绩。"
+            },
+            {
+              "name": "雅思 IELTS 中国官网",
+              "url": "https://www.chinaielts.org/",
+              "tags": [
+                "考试",
+                "留学"
+              ],
+              "intro": "雅思考试在中国大陆的官方报名平台，留学、移民常用的英语能力证明。"
+            },
+            {
+              "name": "托福 TOEFL 中国官网",
+              "url": "https://toefl.neea.cn/",
+              "tags": [
+                "考试",
+                "留学"
+              ],
+              "intro": "教育部考试中心托福网考报名网站，北美留学申请必备。"
+            }
+          ]
+        },
+        {
+          "id": "certificates",
+          "name": "普通话与教资",
+          "sites": [
+            {
+              "name": "国家普通话水平测试",
+              "url": "https://www.cltt.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "国家语言文字工作委员会普通话水平测试官方网站，任何专业都可以报考，教师、播音、公务员等岗位常要求。"
+            },
+            {
+              "name": "中小学教师资格考试 (NTCE)",
+              "url": "https://ntce.neea.edu.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "教师资格证笔试与面试报名、成绩查询官网，非师范专业也能报考。"
+            }
+          ]
+        },
+        {
+          "id": "computer-level",
+          "name": "计算机等级",
+          "sites": [
+            {
+              "name": "全国计算机等级考试 (NCRE)",
+              "url": "https://ncre.neea.edu.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "面向非计算机专业的计算机应用能力考试，一级到四级，常考二级 Office / C / Python。"
+            }
+          ]
+        },
+        {
+          "id": "further-study",
+          "name": "升学就业",
+          "sites": [
+            {
+              "name": "中国研究生招生信息网",
+              "url": "https://yz.chsi.com.cn/",
+              "tags": [
+                "考研"
+              ],
+              "intro": "考研报名、调剂、院校信息的唯一官方网站。"
+            },
+            {
+              "name": "学信网",
+              "url": "https://www.chsi.com.cn/",
+              "tags": [
+                "学籍"
+              ],
+              "intro": "学籍学历查询与认证，求职、考研、出国都会用到。"
+            },
+            {
+              "name": "国家公务员局",
+              "url": "https://www.scs.gov.cn/",
+              "tags": [
+                "考公"
+              ],
+              "intro": "国家公务员考试公告与报名入口。"
+            }
+          ]
+        },
+        {
+          "id": "mooc",
+          "name": "公开课平台",
+          "sites": [
+            {
+              "name": "中国大学MOOC",
+              "url": "https://www.icourse163.org/",
+              "tags": [
+                "课程"
+              ],
+              "intro": "汇集国内高校名师课程，覆盖几乎所有专业，可获得认证证书。"
+            },
+            {
+              "name": "学堂在线",
+              "url": "https://www.xuetangx.com/",
+              "tags": [
+                "课程"
+              ],
+              "intro": "清华大学发起的慕课平台，提供大量工科与通识课程。"
+            },
+            {
+              "name": "国家智慧教育平台",
+              "url": "https://www.smartedu.cn/",
+              "tags": [
+                "课程"
+              ],
+              "intro": "教育部国家级在线教育资源平台，含高等教育与职业教育板块。"
+            }
+          ]
+        },
+        {
+          "id": "general-contest",
+          "name": "综合竞赛",
+          "sites": [
+            {
+              "name": "中国国际大学生创新大赛",
+              "url": "https://cy.ncss.cn/",
+              "tags": [
+                "竞赛",
+                "创业"
+              ],
+              "intro": "原“互联网+”大赛，规模最大的大学生创新创业比赛，各专业均可组队参赛。"
+            },
+            {
+              "name": "“挑战杯”全国大学生课外学术科技作品竞赛",
+              "url": "https://www.tiaozhanbei.net/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "被誉为大学生科技创新“奥林匹克”，分学术作品与创业计划两类。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "理科",
+      "icon": "🔬",
+      "description": "数学、物理、化学、生物等基础学科",
+      "majors": [
+        {
+          "id": "math",
+          "name": "数学",
+          "sites": [
+            {
+              "name": "全国大学生数学建模竞赛 (CUMCM)",
+              "url": "http://www.mcm.edu.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "国内参赛人数最多的数学类竞赛，每年9月举行，三人组队72小时完成建模论文。"
+            },
+            {
+              "name": "美国大学生数学建模竞赛 (MCM/ICM)",
+              "url": "https://www.comap.com/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "COMAP 主办的国际数学建模竞赛，每年2月举行，中国学生参赛广泛。"
+            },
+            {
+              "name": "全国大学生数学竞赛",
+              "url": "http://www.cmathc.org.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "中国数学会主办，分数学类与非数学类两组，考查高数与基础数学功底。"
+            }
+          ]
+        },
+        {
+          "id": "physics",
+          "name": "物理",
+          "sites": [
+            {
+              "name": "中国物理学会",
+              "url": "https://www.cps-net.org.cn/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "物理学领域的全国性学术团体，发布学术会议与竞赛信息。"
+            },
+            {
+              "name": "arXiv",
+              "url": "https://arxiv.org/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "物理、数学、计算机等方向最重要的预印本论文库，免费阅读最新研究。"
+            }
+          ]
+        },
+        {
+          "id": "chemistry",
+          "name": "化学",
+          "sites": [
+            {
+              "name": "中国化学会",
+              "url": "https://www.chemsoc.org.cn/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "化学领域全国性学术团体，组织全国大学生化学实验创新设计竞赛等活动。"
+            },
+            {
+              "name": "ACS Publications",
+              "url": "https://pubs.acs.org/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "美国化学会期刊平台，化学专业查阅文献的重要来源。"
+            }
+          ]
+        },
+        {
+          "id": "biology",
+          "name": "生物",
+          "sites": [
+            {
+              "name": "全国大学生生命科学竞赛",
+              "url": "https://www.culsc.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "面向生命科学相关专业的全国性科研与实验竞赛。"
+            },
+            {
+              "name": "iGEM 国际基因工程机器大赛",
+              "url": "https://igem.org/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "合成生物学领域最具影响力的国际学生竞赛。"
+            },
+            {
+              "name": "NCBI",
+              "url": "https://www.ncbi.nlm.nih.gov/",
+              "tags": [
+                "数据库"
+              ],
+              "intro": "美国国家生物技术信息中心，基因、蛋白序列和文献数据库。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "工科",
+      "icon": "⚙️",
+      "description": "电气、机械、计算机、土木等工程类专业",
+      "majors": [
+        {
+          "id": "electrical",
+          "name": "电气",
+          "sites": [
+            {
+              "name": "全国大学生电子设计竞赛",
+              "url": "http://nuedc.xjtu.edu.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "教育部与工信部主办，电子信息、电气类最重要的学科竞赛，四天三夜完成作品。"
+            },
+            {
+              "name": "中国人事考试网",
+              "url": "http://www.cpta.com.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "注册电气工程师等国家职业资格考试的报名与成绩查询入口。"
+            },
+            {
+              "name": "IEEE Xplore",
+              "url": "https://ieeexplore.ieee.org/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "电气电子工程领域最权威的论文数据库。"
+            },
+            {
+              "name": "电子发烧友",
+              "url": "https://www.elecfans.com/",
+              "tags": [
+                "社区"
+              ],
+              "intro": "电子工程师技术社区，含大量电路、单片机、嵌入式学习资料。"
+            }
+          ]
+        },
+        {
+          "id": "mechanical",
+          "name": "机械",
+          "sites": [
+            {
+              "name": "RoboMaster 机甲大师",
+              "url": "https://www.robomaster.com/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "大疆发起的机器人竞赛，融合机械、电控、视觉算法，适合跨专业组队。"
+            },
+            {
+              "name": "中国大学生方程式汽车大赛",
+              "url": "https://www.formulastudent.com.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "学生自主设计制造方程式赛车，机械、车辆专业的标志性赛事。"
+            },
+            {
+              "name": "中国机械工程学会",
+              "url": "https://www.cmes.org/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "机械工程领域全国性学术团体，组织机械创新设计大赛等活动。"
+            }
+          ]
+        },
+        {
+          "id": "computer",
+          "name": "计算机",
+          "sites": [
+            {
+              "name": "蓝桥杯全国软件和信息技术专业人才大赛",
+              "url": "https://dasai.lanqiao.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "工信部人才交流中心主办，设 C/C++、Java、Python、嵌入式等组别，个人赛，适合入门算法竞赛。"
+            },
+            {
+              "name": "ICPC 国际大学生程序设计竞赛",
+              "url": "https://icpc.global/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "即 ACM 竞赛，全球历史最悠久、最权威的大学生算法竞赛，三人一队一台电脑。"
+            },
+            {
+              "name": "CCPC 中国大学生程序设计竞赛",
+              "url": "https://ccpc.io/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "国内与 ICPC 并列的大学生程序设计赛事，赛制与 ACM 相同。"
+            },
+            {
+              "name": "LeetCode 力扣",
+              "url": "https://leetcode.cn/",
+              "tags": [
+                "刷题"
+              ],
+              "intro": "最流行的算法刷题平台，求职面试必刷，有周赛和题解社区。"
+            },
+            {
+              "name": "Codeforces",
+              "url": "https://codeforces.com/",
+              "tags": [
+                "刷题",
+                "竞赛"
+              ],
+              "intro": "全球知名在线算法竞赛平台，定期举办比赛并有 Rating 排名，ACM 选手必备。"
+            },
+            {
+              "name": "洛谷",
+              "url": "https://www.luogu.com.cn/",
+              "tags": [
+                "刷题"
+              ],
+              "intro": "国内优秀的算法题库与 OJ，题目分类和难度梯度清晰，适合系统训练。"
+            },
+            {
+              "name": "牛客网",
+              "url": "https://www.nowcoder.com/",
+              "tags": [
+                "刷题",
+                "求职"
+              ],
+              "intro": "笔试面试题库、校招信息和算法竞赛平台。"
+            },
+            {
+              "name": "CCF CSP 认证",
+              "url": "https://cspro.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "中国计算机学会软件能力认证，部分高校保研和企业招聘认可。"
+            },
+            {
+              "name": "计算机技术与软件专业技术资格 (软考)",
+              "url": "https://www.ruankao.org.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "国家级计算机职业资格考试，含程序员、软件设计师、系统架构师等。"
+            },
+            {
+              "name": "GitHub",
+              "url": "https://github.com/",
+              "tags": [
+                "开源"
+              ],
+              "intro": "全球最大的代码托管与开源社区，学习项目、积累作品集的首选。"
+            }
+          ]
+        },
+        {
+          "id": "civil",
+          "name": "土木",
+          "sites": [
+            {
+              "name": "中国人事考试网（建造师）",
+              "url": "http://www.cpta.com.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "一级建造师、注册结构工程师等资格考试的官方报名入口。"
+            },
+            {
+              "name": "筑龙网",
+              "url": "https://www.zhulong.com/",
+              "tags": [
+                "资源"
+              ],
+              "intro": "建筑、土木工程学习资料与施工案例分享社区。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agriculture",
+      "name": "农科",
+      "icon": "🌾",
+      "description": "农学、林学、动物科学等涉农专业",
+      "majors": [
+        {
+          "id": "agronomy",
+          "name": "农学",
+          "sites": [
+            {
+              "name": "中国农业科学院",
+              "url": "https://www.caas.cn/",
+              "tags": [
+                "科研"
+              ],
+              "intro": "国家级农业科研机构，发布科研成果、招生与学术动态。"
+            },
+            {
+              "name": "农业农村部",
+              "url": "https://www.moa.gov.cn/",
+              "tags": [
+                "政策"
+              ],
+              "intro": "农业政策、统计数据与行业资讯的官方来源。"
+            },
+            {
+              "name": "联合国粮农组织 FAO",
+              "url": "https://www.fao.org/",
+              "tags": [
+                "数据库"
+              ],
+              "intro": "全球农业、粮食与营养数据和报告。"
+            }
+          ]
+        },
+        {
+          "id": "forestry",
+          "name": "林学园艺",
+          "sites": [
+            {
+              "name": "国家林业和草原局",
+              "url": "https://www.forestry.gov.cn/",
+              "tags": [
+                "政策"
+              ],
+              "intro": "林草行业政策、资源数据与行业动态。"
+            },
+            {
+              "name": "全国大学生生命科学竞赛",
+              "url": "https://www.culsc.cn/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "涉农、生命科学类学生可参加的全国性科研竞赛。"
+            }
+          ]
+        },
+        {
+          "id": "animal",
+          "name": "动物科学",
+          "sites": [
+            {
+              "name": "中国知网",
+              "url": "https://www.cnki.net/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "国内最大的学术文献数据库，畜牧兽医类期刊齐全。"
+            },
+            {
+              "name": "NCBI",
+              "url": "https://www.ncbi.nlm.nih.gov/",
+              "tags": [
+                "数据库"
+              ],
+              "intro": "动物遗传育种研究常用的基因与文献数据库。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medicine",
+      "name": "医科",
+      "icon": "🩺",
+      "description": "临床医学、药学、护理等医学类专业",
+      "majors": [
+        {
+          "id": "clinical",
+          "name": "临床医学",
+          "sites": [
+            {
+              "name": "国家医学考试网",
+              "url": "https://www.nmec.org.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "医师资格考试官方网站，发布执业医师考试公告与成绩查询。"
+            },
+            {
+              "name": "丁香园",
+              "url": "https://www.dxy.cn/",
+              "tags": [
+                "社区"
+              ],
+              "intro": "医学专业人士社区，含临床指南、病例讨论与考试资料。"
+            },
+            {
+              "name": "PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "全球生物医学文献检索的首选数据库。"
+            }
+          ]
+        },
+        {
+          "id": "pharmacy",
+          "name": "药学",
+          "sites": [
+            {
+              "name": "国家药监局执业药师资格认证中心",
+              "url": "https://www.cqlp.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "执业药师职业资格考试相关政策与通知。"
+            },
+            {
+              "name": "中国药学会",
+              "url": "https://www.cpa.org.cn/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "药学领域全国性学术团体，发布学术活动与竞赛信息。"
+            },
+            {
+              "name": "药智网",
+              "url": "https://www.yaozh.com/",
+              "tags": [
+                "数据库"
+              ],
+              "intro": "药品、医药政策与研发数据查询平台。"
+            }
+          ]
+        },
+        {
+          "id": "nursing",
+          "name": "护理",
+          "sites": [
+            {
+              "name": "中国卫生人才网",
+              "url": "https://www.21wecan.com/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "护士执业资格考试、卫生专业技术资格考试报名入口。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "name": "商科",
+      "icon": "💹",
+      "description": "会计、金融、经济学等商科专业",
+      "majors": [
+        {
+          "id": "accounting",
+          "name": "会计",
+          "sites": [
+            {
+              "name": "全国会计资格评价网",
+              "url": "http://kzp.mof.gov.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "财政部初级、中级、高级会计职称考试官方报名网站。"
+            },
+            {
+              "name": "中国注册会计师协会 (CPA)",
+              "url": "https://www.cicpa.org.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "注册会计师考试政策、报名通知与行业资讯。"
+            },
+            {
+              "name": "ACCA 特许公认会计师公会",
+              "url": "https://www.accaglobal.com/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "国际认可度很高的会计专业资格证书。"
+            }
+          ]
+        },
+        {
+          "id": "finance",
+          "name": "金融",
+          "sites": [
+            {
+              "name": "中国证券业协会",
+              "url": "https://www.sac.net.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "证券从业资格考试报名与成绩查询。"
+            },
+            {
+              "name": "中国证券投资基金业协会",
+              "url": "https://www.amac.org.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "基金从业资格考试官方网站。"
+            },
+            {
+              "name": "中国银行业协会",
+              "url": "https://www.china-cba.net/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "银行业专业人员职业资格考试信息。"
+            },
+            {
+              "name": "CFA Institute",
+              "url": "https://www.cfainstitute.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "特许金融分析师 CFA 考试官方网站，投研岗位含金量极高。"
+            }
+          ]
+        },
+        {
+          "id": "economics",
+          "name": "经济学",
+          "sites": [
+            {
+              "name": "国家统计局",
+              "url": "https://www.stats.gov.cn/",
+              "tags": [
+                "数据库"
+              ],
+              "intro": "宏观经济统计数据的权威来源，写论文、做调研必备。"
+            },
+            {
+              "name": "全国大学生市场调查与分析大赛",
+              "url": "http://www.china-cssc.org/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "即“正大杯”，经管类学生参与度很高的调研分析竞赛。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "management",
+      "name": "管理",
+      "icon": "📊",
+      "description": "工商管理、公共管理、物流与信息管理",
+      "majors": [
+        {
+          "id": "business-admin",
+          "name": "工商管理",
+          "sites": [
+            {
+              "name": "全国大学生电子商务“三创赛”",
+              "url": "http://www.3chuang.net/",
+              "tags": [
+                "竞赛"
+              ],
+              "intro": "电子商务“创新、创意及创业”挑战赛，管理与电商专业的热门竞赛。"
+            },
+            {
+              "name": "PMI 项目管理协会",
+              "url": "https://www.pmi.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "PMP 项目管理专业人士认证的颁发机构。"
+            }
+          ]
+        },
+        {
+          "id": "public-admin",
+          "name": "公共管理",
+          "sites": [
+            {
+              "name": "国家公务员局",
+              "url": "https://www.scs.gov.cn/",
+              "tags": [
+                "考公"
+              ],
+              "intro": "国考公告、职位表与报名入口。"
+            },
+            {
+              "name": "中国政府网",
+              "url": "https://www.gov.cn/",
+              "tags": [
+                "政策"
+              ],
+              "intro": "政策文件、政府工作报告等一手资料。"
+            }
+          ]
+        },
+        {
+          "id": "logistics",
+          "name": "物流管理",
+          "sites": [
+            {
+              "name": "中国物流与采购联合会",
+              "url": "http://www.chinawuliu.com.cn/",
+              "tags": [
+                "学会",
+                "竞赛"
+              ],
+              "intro": "物流行业组织，主办全国大学生物流设计大赛并发布行业数据。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "教育",
+      "icon": "📚",
+      "description": "教育学、心理学、学前教育等师范类专业",
+      "majors": [
+        {
+          "id": "pedagogy",
+          "name": "教育学",
+          "sites": [
+            {
+              "name": "中小学教师资格考试 (NTCE)",
+              "url": "https://ntce.neea.edu.cn/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "师范生必考的教师资格证，含笔试与面试。"
+            },
+            {
+              "name": "国家智慧教育平台",
+              "url": "https://www.smartedu.cn/",
+              "tags": [
+                "资源"
+              ],
+              "intro": "中小学课程、教案与教学资源，备课和试讲参考。"
+            },
+            {
+              "name": "中国教育学会",
+              "url": "https://www.cse.edu.cn/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "教育领域全国性学术团体，发布教育研究与学术活动信息。"
+            }
+          ]
+        },
+        {
+          "id": "psychology",
+          "name": "心理学",
+          "sites": [
+            {
+              "name": "中国心理学会",
+              "url": "https://www.cpsbeijing.org/",
+              "tags": [
+                "学会"
+              ],
+              "intro": "心理学全国性学术团体，含心理咨询师注册系统与学术会议信息。"
+            },
+            {
+              "name": "PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/",
+              "tags": [
+                "论文"
+              ],
+              "intro": "心理学与认知神经科学文献检索。"
+            }
+          ]
+        },
+        {
+          "id": "language-teaching",
+          "name": "语言教学",
+          "sites": [
+            {
+              "name": "国家普通话水平测试",
+              "url": "https://www.cltt.org/",
+              "tags": [
+                "考试",
+                "证书"
+              ],
+              "intro": "教师岗位普遍要求普通话二级甲等及以上（语文教师需二甲以上）。"
+            },
+            {
+              "name": "中文联盟",
+              "url": "https://www.chineseplus.net/",
+              "tags": [
+                "课程"
+              ],
+              "intro": "国际中文教育在线平台，对外汉语教学资源。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
