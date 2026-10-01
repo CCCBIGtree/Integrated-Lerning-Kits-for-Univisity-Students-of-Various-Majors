@@ -14,8 +14,10 @@
 
 ```bash
 pip install -r requirements.txt
-python -m backend.app            # 打开 http://127.0.0.1:5000
+python run.py                    # 打开 http://127.0.0.1:5000
 ```
+
+在 PyCharm / VS Code 中直接右键 **`run.py` → 运行** 即可（不要直接运行 `backend/app.py`）。
 
 - 启动时如果没有抓取数据（或数据超过 24 小时），会在后台立即抓取一轮，不影响网站访问。
 - 之后每 24 小时（±30 分钟随机浮动）自动抓取一次。
